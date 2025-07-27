@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,7 +6,7 @@ public class LevelGen : MonoBehaviour
     [SerializeField] private GameObject chunkPrefab;
     [SerializeField] private int startingChunkSize = 12;
     [SerializeField] private Transform chunkParent;
-    [SerializeField] private float chunkLength = 10f;
+    [SerializeField] private float chunkLength = 12f;
     [SerializeField] private float moveSpeed = 2f;
 
     private List<GameObject> _chunks = new();
